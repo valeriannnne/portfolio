@@ -11,6 +11,46 @@ export default function Projects() {
 
   const details = [   
     {
+      imgsrc: 'https://snipboard.io/oZbXfM.jpg',
+      area: "API Testing",
+      link: 'https://silver-margeaux-55.tiiny.site/',
+      projtitle: "(2024) Simple Book API - Postman",
+      description: 
+      ( 
+        <> 
+          <span> Guided project from freeCodeCamp. Build requests, write tests, and automate a simple book API. </span>
+          <a target="_blank" href='https://youtu.be/VywxIQ2ZXw4?si=u5euSy6uDbpx_efA' className='underline'>See Tutorial</a>
+        </>
+      ),
+    },
+    
+    {
+      imgsrc: 'https://snipboard.io/E9UI0G.jpg',
+      area: "Automation Testing",
+      link: 'https://github.com/valeriannnne/Selenium-Java-Page-Object-Model-TestNG/tree/main',
+      projtitle: "(2024) Selenium Java - TestNG and Page Object Model",
+      description: 
+      ( 
+        <> 
+          <span>A guided project. Testing framework using POM, screenshots on failure, and test retries. </span>
+          <a target="_blank" href='https://youtu.be/L7P5fqW2kck?si=dhjDftcjiAyJU8Zo' className='underline'>See Tutorial</a>
+        </>
+      ),
+    },
+    {
+      imgsrc: 'https://snipboard.io/lZBwuo.jpg',
+      area: "Automation Testing",
+      link: 'https://github.com/valeriannnne/Selenium-WebDriver-Alison',
+      projtitle: "(2024) Selenium WebDriver: All You Need to Know - Alison",
+      description: 
+      ( 
+        <> 
+          <span>Developed and includes test case writing and execution in Eclipse as part of the course on Alison. </span>
+          <a target="_blank" href='https://alison.com/certification/check/72f09de72a' className='underline'>See Credential</a>
+        </>
+      ),
+    },
+    {
       imgsrc: 'https://snipboard.io/zhc8E9.jpg',
       area: "Algorithm Implementation and Front-end web development",
       link: 'https://github.com/dprfran/baybayin-fe',
@@ -173,7 +213,7 @@ export default function Projects() {
             <div>
               <h2 className='h2 leading-tight text-accent'>My Portfolio</h2>
               <p className='max-w-xm mb-16'>
-              These are the works I made while learning under the program Computer Science and practicing Software Development. Most of my work focused on front-end development, as I was frequently assigned to that area in group projects. Similarly, I gained experience in UI/UX design.
+              These are the works I made while learning under the program Computer Science and practicing Software Development and Testing. Most of my work focused on front-end development, as I was frequently assigned to that area in group projects. Similarly, I gained experience in UI/UX design.
               </p>
             </div>
           </motion.div>

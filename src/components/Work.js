@@ -53,6 +53,28 @@ const Work = () => {
           viewport={{once:false, amount: 0.3}}
           className='flex-1 flex flex-col gap-y-10'>
           {/* work2 */}
+                    {/* work2 */}
+                    <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            {/* overlays */}
+            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+            {/* img */}
+            <img src='https://snipboard.io/lZBwuo.jpg' alt="" className='group-hover:scale-125 transition-all duration-500 z-50' />
+            {/* subtitle */}
+            <div className='absolute -bottom-full left-12 min-[959px]:group-hover:bottom-40 group-hover:bottom-36 transition-all duration-500 z-50'>
+              <span className='text-accent line-clamp-1 font-bold'>Automation Testing</span>
+            </div>
+            {/* title */}
+            <div className='absolute -bottom-full left-12 group-hover:bottom-28 transition-all duration-700 z-50'>
+              <span className='text-3xl line-clamp-1 hover:underline'><a target='_blank' href='https://github.com/valeriannnne/Selenium-WebDriver-Alison'>(2024) Selenium WebDriver: All You Need to Know - Alison</a></span>
+            </div>
+            <div className='absolute -bottom-full left-12 min-[1200px]:group-hover:bottom-10 min-[960px]:group-hover:bottom-6 min-[768px]:group-hover:bottom-12 group-hover:bottom-5 transition-all duration-700 z-50 pr-4'>
+              <span className='text-xl line-clamp-3'>
+                <span>Developed and includes test case writing and execution in Eclipse as part of the course on Alison. </span>
+                <a target="_blank" href='https://alison.com/certification/check/72f09de72a' className='underline'>See Credential</a>
+              </span>
+            </div>
+          </div>
+          {/* work3 */}
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
             {/* overlays */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
@@ -67,27 +89,8 @@ const Work = () => {
               <span className='text-3xl line-clamp-1 hover:underline'><a target='_blank' href='https://github.com/QueencessMay/sentiment-analyzer'>(2023) Sentiment Analyzer</a></span>
             </div>
             <div className='absolute -bottom-full left-12 min-[1200px]:group-hover:bottom-10 min-[960px]:group-hover:bottom-6 min-[768px]:group-hover:bottom-12 group-hover:bottom-5 transition-all duration-700 z-50 pr-4'>
-              <span className='text-xl line-clamp-3'>Created a mockup & interface to identify positive & negative comments for a group finals. Used Django and Figma</span>
-            </div>
-          </div>
-          {/* work3 */}
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
-            {/* overlays */}
-            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-            {/* img */}
-            <img src='https://snipboard.io/Tncal8.jpg' alt="" className='group-hover:scale-125 transition-all duration-500 z-50' />
-            {/* subtitle */}
-            <div className='absolute -bottom-full left-12 min-[959px]:group-hover:bottom-40 group-hover:bottom-36 transition-all duration-500 z-50'>
-              <span className='text-accent line-clamp-1 font-bold'>Mobile Application</span>
-            </div>
-            {/* title */}
-            <div className='absolute -bottom-full left-12 group-hover:bottom-28 transition-all duration-700 z-50'>
-              <span className='text-3xl line-clamp-1 hover:underline'><a target='_blank' href='https://github.com/valeriannnne/Quattuor_Bilin_DSC'>(2022) Bilin</a></span>
-            </div>
-            <div className='absolute -bottom-full left-12 min-[1200px]:group-hover:bottom-10 min-[960px]:group-hover:bottom-6 min-[768px]:group-hover:bottom-12 group-hover:bottom-5 transition-all duration-700 z-50 pr-4'>
               <span className='text-xl line-clamp-3'>
-                <span>Service app connecting Tagapaglingkod with Mamamayan for services. Used Java and Android Studio. </span>
-                <a target="_blank" href='https://www.youtube.com/watch?v=jRDQDq1WtQE' className='underline'>See Demo</a>
+                <span>Created a mockup & interface to identify positive & negative comments for a group finals. Used Django and Figma</span>
               </span>
             </div>
           </div>

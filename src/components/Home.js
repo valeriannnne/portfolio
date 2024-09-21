@@ -27,12 +27,12 @@ const Home = () => {
           whileInView={'show'}
           viewport={{once:false, amount:0.7}}
           className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
-            <span className='mr-4 text-white'>An aspiring </span>
+            <span className='mr-4 text-white'>A</span>
             <TypeAnimation sequence={
               [
               'Software QA Tester', 2000,
-              'Web Developer', 2000,
-              'UI/UX Designer', 2000,
+              'Freelance Tester', 2000,
+              'Quality Assurance Engineer', 2000,
               ]}
               speed={50}
               className='text-accent'
@@ -46,7 +46,7 @@ const Home = () => {
           whileInView={'show'}
           viewport={{once:false, amount:0.7}}
           className='mb-8 max-w-lg mx-auto lg:mx-0'>
-            I am a graduating student from Polytechnic University of the Philippines. I am currently taking up Bachelor of Science in Computer Science.
+            A freelance tester on uTest with a strong background in Java and web development. Graduated from Polytechnic University of the Philippines with a Computer Science degree. Continuously enhancing my skills in manual and automation testing.
           </motion.p>
           <motion.div 
           variants={fadeIn('up',0.6)}

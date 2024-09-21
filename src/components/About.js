@@ -22,7 +22,7 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false, amount: 0.3}}
-            className='bg-about bg-contain bg-no-repeat lg:w-[640px] h-[640px] mix-blend-lighten bg-top'>
+            className='bg-about bg-contain bg-no-repeat lg:w-[640px] h-[640px]  bg-top'>
           </motion.div>
         </div>
         {/* txt */}
@@ -38,9 +38,9 @@ const About = () => {
               Software QA Tester
             </h3>
             <p className='mb-6'>
-            I am a graduating Computer Science student from Polytechnic University of the Philippines Manila. I have basic knowledge in Web Development. As a diligent and hardworking student, I believe that I can achieve the tasks that will be assigned to me.
+            A Computer Science Graduate from Polytechnic University of the Philippines Manila. I have basic knowledge in Web Development. As a diligent and hardworking student, I believe that I can achieve the tasks that will be assigned to me.
             <br></br><br></br>
-            I have experience in manual testing and am currently practicing my exploratory testing skills on uTest. During my last internship, I created test cases, bug reports, and conducted various types of manual testing.
+            I have experience in manual testing and am currently practicing automation testing. During my last internship, I created test cases, bug reports, and conducted various types of manual testing.
 
             </p>
           </div>       
