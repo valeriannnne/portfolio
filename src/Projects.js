@@ -11,6 +11,20 @@ export default function Projects() {
 
   const details = [   
     {
+      imgsrc: 'https://snipboard.io/mNo7nt.jpg',
+      area: "Automation Testing",
+      link: 'https://github.com/valeriannnne/Cypress-Course-freeCodeCamp',
+      projtitle: "(2024) Cypress - NextJS Project",
+      description: 
+      ( 
+        <> 
+          <span>A guided project testing a NextJS application using JavaScript, following the freeCodeCamp tutorial. </span>
+          <a target="_blank" href='https://youtu.be/u8vMu7viCm8?si=wMS9shOpk2dzg3Rr' className='underline'>See Tutorial</a>
+        </>
+      ),
+    },
+
+    {
       imgsrc: 'https://snipboard.io/oZbXfM.jpg',
       area: "API Testing",
       link: 'https://silver-margeaux-55.tiiny.site/',
