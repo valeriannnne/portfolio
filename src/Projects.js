@@ -10,6 +10,19 @@ export default function Projects() {
   }, []);
 
   const details = [   
+      {
+      imgsrc: 'https://snipboard.io/47abNv.jpg',
+      area: "Automation Testing",
+      link: 'https://github.com/valeriannnne/Cypress-TAU',
+      projtitle: "(2024) Introduction to Cypress - Test Automation University",
+      description: 
+      ( 
+        <> 
+          <span>Tested a Vue app using Cypress, learning test writing, assertions, and Continuous Integration. </span>
+          <a target="_blank" href='https://testautomationu.applitools.com/certificate/?id=73ad2046' className='underline'>See Credential</a>
+        </>
+      ),
+    },
     {
       imgsrc: 'https://snipboard.io/mNo7nt.jpg',
       area: "Automation Testing",
